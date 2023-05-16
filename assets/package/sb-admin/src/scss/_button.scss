@@ -1,0 +1,112 @@
+.btn-custom-dark {
+    background-color: $primay-dark-color !important;
+    color: $primay-text-color !important;
+}
+
+.btn-custom-dark:hover {
+    background-color: #ffffff !important;
+    color: black !important;
+    border: 2px solid black;
+}
+
+//dark outilne button
+.btn-custom-dark-invert {
+    background-color: $primay-text-color !important;
+    color: $primay-dark-color !important;
+    border: 2px solid black;
+}
+
+.btn-custom-dark-invert:hover {
+    background-color: black !important;
+    color: #ffffff !important;
+    border: 2px solid black;
+}
+
+// red button
+.btn-custom-red {
+    background-color: $primary-red !important;
+    color: $primay-text-color !important;
+    border: 2px solid #C70000;
+}
+
+.btn-custom-red:hover {
+    background-color: #ffffff !important;
+    color: $primary-red !important;
+    border: 2px solid #C70000;
+
+}
+
+// red button inverted
+.btn-custom-red-invert {
+    background-color: #ffffff !important;
+    color: $primary-red !important;
+    border: 2px solid #C70000;
+}
+
+.btn-custom-red-invert:hover {
+    background-color: $primary-red !important;
+    color: $primay-text-color !important;
+    border: 2px solid #C70000;
+
+}
+
+
+.btn.btn-primary {
+    background: #f8b739;
+    border-color: #f8b739;
+    color: #000000;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+    background: #ffffff !important;
+    border-color: #f8b739 !important;
+    color: #f8b739;
+}
+
+.custom_file_upload {
+    padding: 50px;
+    background-color: #FBFBFB;
+    border: 2px solid rgba(35, 31, 32, 0.1)
+}
+
+.custom_file_upload:hover {
+    cursor: pointer;
+}
+
+.custom_file_upload input[type="file"]::file-selector-button {
+    background-color: $primay-text-color !important;
+    color: $primay-dark-color !important;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.custom_file_upload input[type="file"]::file-selector-button:hover {
+    cursor: pointer;
+    background-color: black !important;
+    color: #ffffff !important;
+    border: 2px solid black;
+
+}
+
+
+//search button 
+.custom_search_input input[type="search"] {
+
+    border: solid black;
+    border-width: 2px 0 2px 2px;
+    border-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.custom_search_input button[type="button"] {
+
+    border: solid black;
+    border-width: 2px 2px 2px 0;
+    border-radius: 0px; 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}

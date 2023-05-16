@@ -1,0 +1,413 @@
+.backText {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2px;
+
+}
+
+.messageHeading {
+    /* margin-top: 2em;
+    margin-bottom: 2em; */
+    color: black;
+    font-size: 20pt;
+    padding-top: 1em;
+    padding-Bottom: 1em;
+
+}
+
+.messageDate {
+    color: black;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 2px;
+}
+
+.hide {
+    display: none;
+}
+
+.container-fluid {
+
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    padding: 10px 10px 10px 10px;
+    /* background-color: #f6f6f7; */
+    /* border-radius: 15px !important; */
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+
+}
+
+.loginBtn {
+    margin-top: 1rem;
+    border-radius: 35px !important;
+    width: 70%;
+    box-shadow: none;
+}
+
+.createLease {
+    margin-top: 1rem;
+    border-radius: 35px !important;
+    width: 30%;
+    box-shadow: none;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.content {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    background-color: white;
+    border-radius: 15px !important;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(158, 163, 167, 0.63) 0px 2px 6px 2px;
+}
+
+.card {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    background-color: #f6f6f7;
+    border-radius: 5px !important;
+    box-shadow: rgba(250, 251, 253, 0.3) 0px 1px 2px 0px, rgba(189, 192, 194, 0.959) 0px 2px 6px 2px;
+}
+
+.card-body {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.cardNotifications {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.274);
+    /* background-color: #f6f6f7; */
+    border-radius: 5px !important;
+    /* box-shadow: rgba(250, 251, 253, 0.3) 0px 1px 2px 0px, rgba(189, 192, 194, 0.959) 0px 2px 6px 2px; */
+}
+
+.form-select-lg {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    height: 4rem;
+    font-size: 1.25rem;
+    border-radius: 0.5rem;
+    border: 3px solid black;
+    font-weight: bold;
+
+}
+
+#search {
+    margin-top: 1.8em !important;
+    margin-bottom: -0.5em;
+}
+
+.ms-n5 {
+    margin-left: -40px;
+
+}
+
+.form-select {
+    border-radius: 0.5rem !important;
+    border: 3px solid black !important;
+    font-weight: bold !important;
+    box-shadow: none !important;
+}
+
+#searchText {
+    margin-top: 1.6em !important;
+    margin-bottom: -0.5em;
+}
+
+#searchBox {
+    border-radius: 25px !important;
+    border: 3px solid black !important;
+    background-color: white !important;
+    
+}
+
+#viewSearchBox {
+    border-radius: 25px !important;
+    border: 2px solid black !important;
+    background-color: white !important;
+}
+
+.form-select:focus {
+    border-color: #fbb019e0 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(248, 184, 57, 0.904) !important;
+}
+
+/* select option:hover {
+    background-color: red !important;
+    color: white !important;
+} */
+
+.textBoldness {
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+.textBoldnessTwo {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#btngroup {
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 8px 15px;
+    width: 100%;
+    border-radius: 35px !important;
+}
+
+.btnApplyNow {
+    background-color: #fbaf19 !important;
+    border-radius: 35px !important;
+    width: 100%;
+    height: 3em;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+#nextButton {
+    background-color: #fbaf19 !important;
+    border-radius: 35px !important;
+    width: 70%;
+    color: black;
+    border: 3px solid #fbaf19 !important;
+    box-shadow: none;
+
+}
+
+#nextButton:hover {
+    background-color: white !important;
+    color: #fbaf19;
+    border: 3px solid #fbaf19 !important;
+}
+
+#saveButton {
+    background-color: white !important;
+    border-radius: 35px !important;
+    width: 70%;
+    color: black;
+    border: 3px solid black !important;
+    box-shadow: none;
+}
+
+#saveButton:hover {
+    background-color: black !important;
+    color: white;
+
+}
+
+.area-select {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    width: 100%;
+
+}
+
+/* new css */
+
+.table-input {
+
+    border: none;
+    background-color: #cccccc;
+    box-shadow: none;
+}
+
+.table-input:focus {
+    border: none;
+    background-color: #cccccc;
+    box-shadow: none;
+}
+
+
+table {
+    border-radius: 9px;
+    overflow: hidden
+        /* add this */
+}
+
+
+
+
+label {
+    font-size: 18px;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 500;
+    padding: 2px 15px;
+    margin-top: 15px;
+}
+
+.custom-file-button input[type=file] {
+    margin-left: -2px !important;
+}
+
+.custom-file-button input[type=file]::-webkit-file-upload-button {
+    display: none;
+}
+
+.custom-file-button input[type=file]::file-selector-button {
+    display: none;
+}
+
+.custom-file-button:hover label {
+    background-color: #dde0e3;
+    cursor: pointer;
+}
+
+#inputGroupFile {
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 8px 15px;
+    border: none;
+    display: ruby-text;
+    text-align: right;
+    border: hidden;
+    box-shadow: none;
+}
+
+#inputGroupFile:focus-visible:focus {
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 8px 15px;
+    box-shadow: none;
+    text-align: right;
+}
+
+
+#inputGroupFileBTN {
+    background-color: black !important;
+    border-radius: 35px !important;
+    width: 35%;
+    height: 2.5em;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+
+#addBtn {
+    border-radius: 35px !important;
+    width: 100%;
+}
+
+#deleteBtn {
+    border-radius: 35px !important;
+    width: 100%;
+    color: white;
+}
+
+#inputGroupFileBTN:hover {
+    background-color: white !important;
+    color: black;
+    border: 2px solid black;
+}
+
+/* #saveBTN {
+    background-color: white !important;
+    border-radius: 35px !important;
+    color: black !important;
+    border: 2px solid black!important;
+    width: 30%!important;
+    height: 2.5em!important;
+    display: block;
+    font-size: 16px;
+   
+    cursor: pointer;
+    
+}
+#saveBTN:hover {
+    background-color: black !important;
+    color: white!important;
+        
+}
+#nextBTN{
+   
+    border-radius: 35px !important;
+    width: 30% !important;
+    height: 2.5em !important;
+    display: block;
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+#nextBTN:hover {
+    background-color: #fbaf19 !important;
+    color: white !important;
+
+} */
+/* .form-control,{
+    background-color: #cccccc4d!important;
+    border-color: #cccccc4d!important;
+} */
+.ratioComp {
+    margin-top: 1.9em !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(179, 179, 180, 0) !important;
+    border-color: #cccccc4d !important;
+}
+
+.form-check-input,
+.form-control {
+    background-color: #cccccc4d !important;
+    border-color: #cccccc4d !important;
+
+}
+
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+    margin-top: 18px;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    margin: 1rem;
+}
+
+.custom-control-label {
+    margin: 1.5rem 2rem;
+}
+
+.form-check-input:checked {
+    background-color: #fbaf19;
+    border-color: #fbaf19;
+    box-shadow: none;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0.25em;
+    box-shadow: none;
+    top: 0.1rem !important;
+    left: -2rem !important;
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+
+}

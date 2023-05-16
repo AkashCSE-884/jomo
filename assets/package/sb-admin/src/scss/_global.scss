@@ -1,0 +1,143 @@
+// 
+// Global
+// 
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.home_icon {
+    background-color: $primary-color;
+}
+
+.home_icon:hover {
+    background-color: $primary-hover-color;
+}
+
+.form_wrapper {
+    max-width: 100%;
+    // min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #FFFFFF;
+    /* background-color: #ecf0f3; */
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.form_wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555;
+}
+
+.form_wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px;
+    /* border: 1px solid red; */
+}
+
+.form_wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.form_wrapper .form-field .fas {
+    color: #555;
+}
+
+.form_wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    letter-spacing: 1.3px;
+}
+
+.form_wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #000000;
+}
+
+.form_wrapper a:hover {
+    color: #000000;
+}
+
+@media(max-width: 380px) {
+    .form_wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+    }
+}
+
+.divider {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    width: 2px;
+    border: 2px solid rgba(34, 31, 32, 0.1);
+}
+
+.from_info_title {
+    color: $title-text-color;
+}
+
+.table_checkbox {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+} 
+
+.gray_td{
+
+    background-color: #0003 !important; 
+}
+
+.modal_parent {
+    width: 95vw;
+    height: 100vh;
+    overflow: scroll;
+    position: fixed;
+    right:0;
+}
+
+.add_modal {
+    display: block;
+    position: absolute;
+    right: 33%;
+    z-index: 10
+}
+
+.modal_bg_overlay {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    display: block
+}

@@ -1,0 +1,8 @@
+.delete-user{
+border: none;
+border-radius: 15px;
+width: 150px;
+padding: 10px;
+color: white;
+background-color: red;
+}

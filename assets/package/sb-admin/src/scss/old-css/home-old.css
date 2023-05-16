@@ -1,0 +1,129 @@
+
+
+
+.wrapper {
+    width: 100%
+}
+
+.list-unstyled {
+    width: fit-content;
+    padding-left: 0;
+    list-style: none;
+}
+
+#sidenavAccordion {
+    /* min-width: 300px;
+    max-width: 300px; */
+    /* background:#1d1919; */
+    background: #231F20;
+    color: #fff;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+
+#sidenavAccordion.active {
+    /* margin-left: -300px */
+}
+
+#sidenavAccordion .logo {
+    display: block;
+    /* width: 120px;
+    height: 120px; */
+    margin: 0 auto
+}
+
+#sidenavAccordion .logo span {
+    display: block
+}
+
+#sidenavAccordion ul.components {
+    padding: 0
+}
+
+#sidenavAccordion ul li {
+    font-size: 16px
+}
+
+#sidenavAccordion ul li>ul {
+    margin-left: 10px
+}
+
+#sidenavAccordion ul li>ul li {
+    font-size: 14px
+}
+
+#sidenavAccordion ul li a {
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+    color: rgba(255, 255, 255, .8);
+    /* border-bottom:1px solid rgba(255,255,255,.1) */
+}
+
+#sidenavAccordion ul li:hover {
+    background: rgba(251, 251, 251, .1);
+}
+
+#sidenavAccordion ul li.active>a {
+    /* border-radius: .3rem; */
+    /* background:rgba(251, 251, 251,.1); */
+    color: #f8b739;
+}
+
+#sidenavAccordion ul li.active>a:hover {
+    background: rgba(251, 251, 251, .1);
+}
+
+/* @media(max-width:991.98px) {
+    #sidenavAccordion {
+        margin-left: -300px
+    }
+
+    #sidenavAccordion.active {
+        margin-left: 0
+    }
+} */
+
+a[data-toggle=collapse] {
+    position: relative
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+/* @media(max-width:991.98px) {
+    #sidenavAccordionCollapse span {
+        display: none
+    }
+} */
+
+#content {
+    width: 100%;
+    padding: 0;
+    min-height: 100vh;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s
+}
+
+
+
+.footer p {
+    color: rgba(255, 255, 255, .5)
+}
+
+.footer a {
+    text-decoration: none;
+    color:#f8b739;
+}
+.footer a:hover{
+    color:#866a31;
+}
